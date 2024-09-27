@@ -1,18 +1,18 @@
 import styles from './Expenses.module.css';
 
-const Expenses = () => {
+const Income = () => {
 	return (
 		<div className={styles.expensesMainContainer}>
 			<h2 className={styles.expensesTitle}>EXPENSES</h2>
 			<div className={styles.expenseAmount}>
-				<p>TOTAL EXPENSES: </p>
+				<p>TOTAL INCOME: </p>
 				<p> $20</p>
 			</div>
 			<form action="" className={styles.expensesForm}>
-				<input type="text" placeholder="Enter expense name" />
+				<input type="text" placeholder="Enter income name" />
 				<input
 					type="number"
-					placeholder="Enter expense amount"
+					placeholder="Enter income amount"
 				/>
 				<input type="text" placeholder="Enter date" />
 				<select name="" id=""></select>
@@ -24,4 +24,4 @@ const Expenses = () => {
 	);
 };
 
-export default Expenses;
+export default Income;
