@@ -1,4 +1,4 @@
-const expenses = () => {
+const Expenses = () => {
 	return (
 		<div className={StyleSheet.expensesMainContainer}>
 			<h2 className={StyleSheet.expensesTitle}>Expenses</h2>
@@ -20,4 +20,4 @@ const expenses = () => {
 	);
 };
 
-export default expenses;
+export default Expenses;
