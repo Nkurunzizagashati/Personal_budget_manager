@@ -1,0 +1,53 @@
+{
+  "expenses": [
+    {
+      "id": "1",
+      "name": "Grocery Shopping",
+      "category": "Groceries",
+      "date": "2024-10-08",
+      "amount": 50.75
+    },
+    {
+      "id": "2",
+      "name": "Electricity Bill",
+      "category": "Utilities",
+      "date": "2024-10-05",
+      "amount": 75
+    },
+    {
+      "id": "7d9a",
+      "name": "rent",
+      "amount": 500,
+      "date": "2024-10-08",
+      "category": "others"
+    }
+  ],
+  "income": [
+    {
+      "id": "1",
+      "category": "Salary",
+      "date": "2024-10-01",
+      "amount": 1200
+    },
+    {
+      "id": "2",
+      "category": "Freelance",
+      "date": "2024-10-07",
+      "amount": 300
+    },
+    {
+      "id": "ec77",
+      "name": "Salary",
+      "amount": 500,
+      "date": "2024-10-08",
+      "category": "income"
+    },
+    {
+      "id": "c7a0",
+      "name": "Freelance",
+      "amount": 200,
+      "date": "2024-10-07",
+      "category": "freelance"
+    }
+  ]
+}

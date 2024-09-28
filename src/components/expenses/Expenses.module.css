@@ -2,8 +2,14 @@
 	padding: 2rem;
 	width: 100%;
 	display: flex;
+	gap: 2rem;
+}
+
+.addExpenseContainer {
+	display: flex;
 	flex-direction: column;
-	gap: 4rem;
+	gap: 2rem;
+	width: 40%;
 }
 
 h2 {
@@ -12,13 +18,15 @@ h2 {
 }
 
 .expenseAmount {
-	background-color: red;
 	border-radius: 1rem;
 	display: flex;
 	padding: 1rem;
 	align-items: center;
 	justify-content: center;
 	gap: 0.2rem;
+	width: 100%;
+	box-shadow: 0.02rem 0.2rem 0.5rem grey;
+	border-radius: 0.8rem;
 }
 
 .expenseAmount p {
@@ -29,7 +37,7 @@ h2 {
 .expensesForm {
 	display: flex;
 	flex-direction: column;
-	width: 50%;
+	width: 100%;
 	gap: 2rem;
 }
 
@@ -54,5 +62,47 @@ textarea:focus {
 	border: none;
 	padding: 1rem 2rem;
 	border-radius: 1rem;
+	cursor: pointer;
+}
+
+.expenseList {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	width: 60%;
+	padding: 2rem;
+}
+
+.expense {
+	display: flex;
+	justify-content: space-between;
+	background-color: #f5f5f7;
+	padding: 1rem;
+	border-radius: 0.8rem;
+	align-items: center;
+	width: 100%;
+}
+
+.expenseDetails {
+	display: flex;
+	justify-content: space-between;
+	gap: 2rem;
+}
+
+.expenseManagerBtn {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.deleteBtn {
+	color: red;
+}
+
+.editBtn {
+}
+
+.deleteBtn:hover,
+.editBtn:hover {
 	cursor: pointer;
 }
