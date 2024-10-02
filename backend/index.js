@@ -14,6 +14,14 @@ dotenv.config();
 
 dbConnection();
 
+// ROUTES
+
+app.get('/', (req, res) => {
+	res.send('Hello World');
+});
+
+// START THE SERVER
+
 const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () => {
