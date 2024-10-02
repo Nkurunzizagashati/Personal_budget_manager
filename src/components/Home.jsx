@@ -11,34 +11,6 @@ import styles from './Home.module.css';
 function Home() {
 	return (
 		<div className={styles.mainContainer}>
-			<div className={styles.sideBar}>
-				<ul className={styles.sideBarCategories}>
-					<li className={styles.category}>
-						<WindowIcon />
-						<span className={styles.categoryName}>
-							Home
-						</span>
-					</li>
-					<li className={styles.category}>
-						<CreditCardOutlinedIcon />
-						<span className={styles.categoryName}>
-							Payment
-						</span>
-					</li>
-					<li className={styles.category}>
-						<CreditCardOutlinedIcon />
-						<span className={styles.categoryName}>
-							Payment
-						</span>
-					</li>
-					<li className={styles.category}>
-						<CreditCardOutlinedIcon />
-						<span className={styles.categoryName}>
-							Payment
-						</span>
-					</li>
-				</ul>
-			</div>
 			<div className={styles.navigation}>
 				<ul className={styles.categories}>
 					<li className={styles.category}>
@@ -86,6 +58,47 @@ function Home() {
 						<LogoutOutlinedIcon />
 					</li>
 				</ul>
+			</div>
+
+			<div className={styles.mainContaintContainer}>
+				{/* SIDE BAR */}
+				<div className={styles.sideBar}>
+					<ul className={styles.sideBarCategories}>
+						<li className={styles.category}>
+							<WindowIcon />
+							<span className={styles.categoryName}>
+								Home
+							</span>
+						</li>
+						<li className={styles.category}>
+							<CreditCardOutlinedIcon />
+							<span className={styles.categoryName}>
+								Payment
+							</span>
+						</li>
+						<li className={styles.category}>
+							<CreditCardOutlinedIcon />
+							<span className={styles.categoryName}>
+								Payment
+							</span>
+						</li>
+						<li className={styles.category}>
+							<CreditCardOutlinedIcon />
+							<span className={styles.categoryName}>
+								Payment
+							</span>
+						</li>
+					</ul>
+				</div>
+				{/* MAIN CONTENT */}
+				<div className={styles.mainContent}>
+					<section className={styles.section}>
+						Section 1
+					</section>
+					<section className={styles.section}>
+						Section 2
+					</section>
+				</div>
 			</div>
 		</div>
 	);

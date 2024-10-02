@@ -1,6 +1,14 @@
 .mainContainer {
 	height: 100vh;
 	display: flex;
+	max-width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.mainContaintContainer {
+	background-color: yellow;
+	width: 100%;
 }
 
 .sideBar {
@@ -8,12 +16,12 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	position: fixed;
-	top: 0;
-	left: 0;
 	height: 100vh;
 	padding: 0 2rem;
 	background-color: #e5e5e5;
+	position: fixed;
+	left: 0;
+	top: 4rem;
 }
 
 .sideBarCategories {
@@ -26,14 +34,13 @@
 
 .navigation {
 	display: flex;
+	width: 100%;
 	justify-content: space-between;
 	align-items: flex-start;
 	padding: 2rem 4rem;
+	background-color: #e5e5e5;
 	position: fixed;
 	top: 0;
-	right: 0;
-	left: 15%;
-	background-color: #e5e5e5;
 }
 
 .categories {
@@ -65,4 +72,13 @@
 
 .setting:hover {
 	cursor: pointer;
+}
+
+/* MAIN CONTENTS */
+
+.section {
+	height: 100vh;
+	border-bottom: 1px solid greenyellow;
+	margin-left: 15.2%;
+	background-color: red;
 }
