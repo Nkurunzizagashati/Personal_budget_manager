@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const incomeSchema = new mongoose.Schema(
+const IncomeSchema = new mongoose.Schema(
 	{
 		title: {
 			type: String,
@@ -31,6 +31,6 @@ const incomeSchema = new mongoose.Schema(
 	{ timestamps: true }
 );
 
-const IncomeModel = mongoose.model('income', incomeSchema);
+const Income = mongoose.model('income', IncomeSchema);
 
-export default IncomeModel;
+export default Income;
